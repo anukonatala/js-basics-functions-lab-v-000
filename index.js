@@ -8,7 +8,7 @@ function distanceFromHqInFeet(blocks){
 }
 
 function distanceTravelledInFeet(north,south){
-  return distanceFromHqInFeet(north) -  distanceFromHqInFeet(south);
+  return Math.abs(distanceFromHqInFeet(north)  - distanceFromHqInFeet(south));
 }
 
 
