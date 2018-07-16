@@ -12,6 +12,7 @@ function distanceTravelledInFeet(north,south){
 }
 
 function calculatesFarePrice(start, destination){
+  let distance = distanceFromHqInFeet(destination - start);
   
 }
 
