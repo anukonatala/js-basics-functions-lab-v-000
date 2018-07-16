@@ -11,5 +11,8 @@ function distanceTravelledInFeet(north,south){
   return Math.abs(distanceFromHqInFeet(north)  - distanceFromHqInFeet(south));
 }
 
+function calculatesFarePrice(start, destination){
+  
+}
 
      
